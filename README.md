@@ -14,7 +14,7 @@ The script will output the results to the console, and also export a CSV file wi
 #  Customization
 You can customize the behavior of the script by modifying the following variables in main.py:
 
-- text: the input text to be analyzed.
+- text: the input text to be analyzed. the defult is your_file.xlsx, you can change the file name as you wish.
 - include_words: a list of words that should be included in the analysis, regardless of frequency.
 - exclude_words: a list of words that should be excluded from the analysis, regardless of frequency.
 - ngram_sizes: a list of integers representing the number of words in each n-gram phrase to be analyzed.
