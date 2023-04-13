@@ -1,4 +1,4 @@
-# Keyword-Density-Analyzer
+# Reviews-Keyword-Density-Analyzer
 This script analyzes the keyword density of a given text, by calculating the frequency of occurrence of one-word and multi-word phrases. It also computes various text statistics, such as word count, character length, sentence count, and readability scores.
 # Usage
 1. Install Python 3.x on your system, if not already installed.
