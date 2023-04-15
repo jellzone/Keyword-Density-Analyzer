@@ -1,15 +1,21 @@
 # Reviews-Keyword-Density-Analyzer
-This script analyzes the keyword density of a given text, by calculating the frequency of occurrence of one-word and multi-word phrases. It also computes various text statistics, such as word count, character length, sentence count, and readability scores.
+This Text Analytics Tool is a Python script that analyzes text data from an Excel file, performing keyword density analysis, content analysis, and sentence analysis. The script uses the Natural Language Toolkit (nltk) and Textstat libraries to analyze the text and generates an output Excel file with separate sheets for keyword density, content analysis, and sentence analysis.
+
 # Usage
 1. Install Python 3.x on your system, if not already installed.
 2. Install the required dependencies by running:
 ``
 pip install -r requirements.txt``
+or
+``
+pip install openpyxl nltk textstat``
+This will install the openpyxl, nltk, and textstat libraries, which are required for the script to work.
 3. Edit the text variable in main.py to your desired input text.
 4. Run the script with the command:
 
 ``
-python main.py``
+python text_analytics_tool.py
+``
 The script will output the results to the console, and also export a CSV file with the keyword density analysis.
 #  Customization
 You can customize the behavior of the script by modifying the following variables in main.py:
@@ -24,4 +30,4 @@ csv_file_path: the path to the output CSV file.
 Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests.
 
 #  Question
-ask jellzone@gmail.com or add wechat: jellzone
+If you have any questions or issues, please submit them in the Issues section of the GitHub repository. We'll do our best to address them promptly.
