@@ -17,6 +17,9 @@ This will install the openpyxl, nltk, and textstat libraries, which are required
 python text_analytics_tool.py
 ``
 The script will output the results to the console, and also export a CSV file with the keyword density analysis.
+
+Learn this url that if you have problem in Mac Os: https://stackoverflow.com/questions/38916452/nltk-download-ssl-certificate-verify-failed
+
 #  Customization
 You can customize the behavior of the script by modifying the following variables in main.py:
 
